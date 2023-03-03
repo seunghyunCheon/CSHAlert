@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CSHAlert_Example' do
+  pod 'CSHAlert', :path => '../'
+
+  target 'CSHAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
