@@ -1,0 +1,6 @@
+framework module Pods_CSHAlert_Tests {
+  umbrella header "Pods-CSHAlert_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

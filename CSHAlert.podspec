@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CSHAlert'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CSHAlert.'
+  s.summary          = 'A CSHAlert.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/seunghyunChoen/CSHAlert'
+  s.homepage         = 'https://github.com/seunghyunCheon/CSHAlert'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'seunghyunChoen' => 'csh7215@naver.com' }
-  s.source           = { :git => 'https://github.com/seunghyunChoen/CSHAlert.git', :tag => s.version.to_s }
+  s.author           = { 'seunghyunCheon' => 'csh7215@naver.com' }
+  s.source           = { :git => 'https://github.com/seunghyunCheon/CSHAlert.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'MapKit'
+   s.swift_versions = '5.7.2'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

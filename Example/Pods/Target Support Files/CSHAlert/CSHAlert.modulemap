@@ -1,0 +1,6 @@
+framework module CSHAlert {
+  umbrella header "CSHAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

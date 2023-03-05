@@ -1,0 +1,16 @@
+PODS:
+  - CSHAlert (0.1.0)
+
+DEPENDENCIES:
+  - CSHAlert (from `../`)
+
+EXTERNAL SOURCES:
+  CSHAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSHAlert: 441a1a202ec14842bad10de8288c1374f74648e1
+
+PODFILE CHECKSUM: b46ae80229be0fb5be1c658f6d95a0503bf877a3
+
+COCOAPODS: 1.11.3
